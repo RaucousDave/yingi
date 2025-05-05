@@ -12,7 +12,7 @@ export default function Hero() {
             Meet <span className="text-highlight">Yingi</span>
           </h1>
           <p className="text-base text-white/90 font-body">
-            A voice with soul. A journey told in rhythm and emotion. Dive into the soundscape of a rising star.
+            A voice with soul. <br/>A journey told in rhythm and emotion.<br/> Dive into the soundscape of a rising star.
           </p>
           <a
             href="#music"
