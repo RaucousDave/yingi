@@ -27,6 +27,7 @@ export default function Gallery() {
                 src={src}
                 alt={`Yingi Gallery ${index + 1}`}
                 effect="blur"
+                loading="lazy"
                 className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
               />
             </div>
