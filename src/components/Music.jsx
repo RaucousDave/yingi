@@ -121,7 +121,7 @@ export default function MusicPlayer() {
               </div>
             </div>
 
-            <div className="flex gap-3">
+            <div className="flex gap-1 md:gap-3">
               <button
                 onClick={() =>
                   setCurrentIndex((prev) => (prev > 0 ? prev - 1 : tracks.length - 1))
