@@ -20,19 +20,13 @@ export default function Bio() {
         <div>
           <h2 className="text-5xl font-bold text-burnt font-heading mb-4">About Yingi</h2>
           <p className="text-base leading-relaxed font-body text-gray-700">
-            Yingi is a soulful singer, performer, and songwriter from Port Harcourt, Nigeria.
-            Her music blends powerful vocals with heartfelt storytelling rooted in her Ijaw heritage.
-            <br /><br />
-            From the vibrant waterside streets of Borokiri to the quiet elegance of GRA,
-            Yingi embodies the duality of her upbringing. Though she studied International Business
-            at Bells University, her heart beats for music and creative expression.
-            <br /><br />
-            Since her debut in 2021, she’s been on a steady rise. 
-            Her 2024 <em>Waterside Girl EP</em> introduced fans to her cultural soundscape, earning love from her community.
-            In 2025, she followed up with <em>Asawana</em> — another celebration of her roots and growth.
-            <br /><br />
-            With every song, Yingi invites you into her world — a space where culture, emotion,
-            and sound collide.
+            Yingi is more than a voice—she’s a vessel of heritage, emotion, and soul. A singer, songwriter, and performer from Port Harcourt, Nigeria, her sound carries the heartbeat of the Ijaw people, wrapped in velvet vocals and storytelling that stirs the spirit.
+
+From the bustling waterside streets of Borokiri to the quiet charm of GRA, Yingi’s upbringing is a tale of contrast—and it breathes through her art. Though trained in International Business at Bells University, her true education has always been in melody, rhythm, and feeling.
+<br/><br/>
+Since her 2021 debut, Yingi has been rising with grace and purpose. Her 2024 EP, <em>Waterside Girl</em>, painted a vivid picture of her cultural landscape, resonating deeply with her community and beyond. In 2025, she returned with Asawana—an ode to growth, identity, and home.
+<br/><br/>
+With every lyric and note, Yingi opens a door to her world—a place where tradition meets soul, and every song is a story worth feeling.
           </p>
         </div>
 
