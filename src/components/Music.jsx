@@ -126,13 +126,13 @@ export default function MusicPlayer() {
                 onClick={() =>
                   setCurrentIndex((prev) => (prev > 0 ? prev - 1 : tracks.length - 1))
                 }
-                className="bg-white/20 px-3 py-1 rounded hover:bg-white/30"
+                className="bg-white/20 px-1 md:px-3 py-1 rounded hover:bg-white/30"
               >
                 <SkipBack/>
               </button>
               <button
                 onClick={togglePlay}
-                className="bg-burnt px-6 py-2 rounded-full font-bold hover:bg-highlight/80"
+                className="bg-burnt px-3 py-2 rounded-full font-bold hover:bg-highlight/80"
               >
                 {isPlaying ? <Pause/> : <Play/>}
               </button>
@@ -140,13 +140,13 @@ export default function MusicPlayer() {
                 onClick={() =>
                   setCurrentIndex((prev) => (prev < tracks.length - 1 ? prev + 1 : 0))
                 }
-                className="bg-white/20 px-3 py-1 rounded hover:bg-white/30"
+                className="bg-white/20 px-1 md:px-3 py-1 rounded hover:bg-white/30"
               >
                 <SkipForward/>
               </button>
               <button
                 onClick={closePlayer}
-                className="bg-burnt px-4 py-1 rounded-full font-bold hover:bg-red-600 ml-2"
+                className="bg-burnt px-3 py-1 rounded-full font-bold hover:bg-red-600 ml-2"
               >
                 <X/>
               </button>
