@@ -27,8 +27,8 @@ export default function Bio() {
             Yingi embodies the duality of her upbringing. Though she studied International Business
             at Bells University, her heart beats for music and creative expression.
             <br /><br />
-            Since her debut in 2021, she’s been on a steady rise. Her 2024 <em>Waterside Girl EP</em>
-            introduced fans to her cultural soundscape, earning love from her community.
+            Since her debut in 2021, she’s been on a steady rise. Her 2024 
+            <em>Waterside Girl EP</em> introduced fans to her cultural soundscape, earning love from her community.
             In 2025, she followed up with <em>Asawana</em> — another celebration of her roots and growth.
             <br /><br />
             With every song, Yingi invites you into her world — a space where culture, emotion,

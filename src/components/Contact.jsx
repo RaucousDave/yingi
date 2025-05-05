@@ -61,7 +61,7 @@ export default function Contact() {
             <Facebook className="w-6 h-6" />
           </a>
           <a
-            href="https://www.tiktok.com/@yingi"
+            href="https://www.tiktok.com/@yiiinngi?_t=ZM-8w4uHyb8XuX&_r=1"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-teal-400 transition-colors"
