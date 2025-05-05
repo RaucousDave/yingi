@@ -4,17 +4,16 @@ import {LazyLoading} from "react-lazy-load-image-component";
 export default function Bio() {
   return (
     <section className="bg-cream py-20 text-gray-800">
-      <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div className="max-w-6xl mx-auto px-6 flex flex-col md:grid md:grid-cols-2 gap-12 items-center">
 
         {/* Image – soft and artistic */}
-        <div className="w-[400px] h-[400px] mx-auto md:mx-0">
+        <div className="w-full md:w-[70%] h-[400px] md:h-[400px] mx-auto md:mx-0 flex justify-center">
           <img
             src={bioImg}
             alt="Yingi"
             effect="blur"
-            className="object-cover w-full h-full rounded-[2rem] shadow-2xl"
+            className="object-cover md:w-full md:h-full rounded-[2rem] shadow-2xl"
           />
-          <div className="absolute -inset-2 bg-gradient-to-tr from-highlight/30 to-burnt/20 blur-2xl z-[-1] rounded-[2rem]" />
         </div>
 
         {/* Bio Text */}

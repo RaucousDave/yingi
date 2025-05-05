@@ -23,9 +23,9 @@ export default function App(){
   return(
     <>
     <Navbar scrollToSection={scrollToSection} refs={{heroRef, bioRef, galleryRef, musicRef, pressRef, contactRef }} />
-      <div ref={heroRef} className="min-h-screen"><Hero /></div>
-        <div ref={bioRef} className="min-h-screen"><Bio /></div>
-<div ref={galleryRef} className="min-h-screen"><Gallery /></div>
+      <div ref={heroRef}><Hero /></div>
+        <div ref={bioRef} ><Bio /></div>
+<div ref={galleryRef}><Gallery /></div>
 <div ref={musicRef} ><Music /></div>
 <div ref={pressRef}><Press /></div>
 <div ref={contactRef} className=""><Contact /></div>
