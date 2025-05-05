@@ -97,6 +97,11 @@ export default function MusicPlayer() {
             </li>
           ))}
         </ul>
+
+        <div className="flex flex-col md:flex-row gap-6 mt-5">
+          <a href="https://heylink.me/yingi" target="_blank" className="text-base px-4 py-2 text-white hover:bg-highlight transition-all text-center duration-300 bg-burnt ease-in rounded-full font-body">Listen to Waterside Girl</a>
+          <a href="https://vyd.co/Asawana" target="_blank" className="text-base px-4 py-2 bg-burnt hover:bg-highlight text-white font-body text-center transition-all duration-300 ease-in rounded-full">Listen to Asawana</a>
+        </div>
       </div>
 
       {/* 🔊 Bottom Player - only visible when a track is selected */}
