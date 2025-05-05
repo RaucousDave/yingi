@@ -16,7 +16,7 @@ export default function Hero() {
           </p>
           <a
             href="#music"
-            className="flex gap-2 bg-burnt hover:bg-orange-700 text-white w-[50%] font-medium px-6 py-3 rounded-full transition shadow-lg font-body"
+            className="flex gap-2 bg-burnt hover:bg-orange-700 text-white w-[70%] md:w-[50%] font-medium px-6 py-3 rounded-full transition shadow-lg font-body"
           >
             Explore the Music <Music/>
             
