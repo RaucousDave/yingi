@@ -45,7 +45,7 @@ export default function Contact() {
             <Instagram className="w-6 h-6" />
           </a>
            <a
-            href="https://www.instagram.com/yingi_d_artiste"
+            href="https://x.com/yingiharry?s=11"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-500 transition-colors"

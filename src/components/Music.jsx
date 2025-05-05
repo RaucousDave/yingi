@@ -84,7 +84,7 @@ export default function MusicPlayer() {
             <li
               key={i}
               className={`flex items-center gap-4 p-3 rounded-lg cursor-pointer transition ${
-                i === currentIndex ? "bg-highlight/20 border border-highlight" : "hover:bg-white/10"
+                i === currentIndex ? "bg-highlight/20 border border-highlight" : "hover:bg-burnt"
               }`}
               onClick={() => playTrack(i)}
             >

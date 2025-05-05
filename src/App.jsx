@@ -29,6 +29,9 @@ export default function App(){
 <div ref={musicRef} ><Music /></div>
 <div ref={pressRef}><Press /></div>
 <div ref={contactRef} className=""><Contact /></div>
+<div className="fixed bottom-4 right-4 text-3xl opacity-70 pointer-events-none">
+  Demo by @RaucousDev
+</div>
 
     </>
   )
