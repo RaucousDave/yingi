@@ -102,7 +102,7 @@ export default function MusicPlayer() {
       {/* 🔊 Bottom Player - only visible when a track is selected */}
       {currentTrack && (
         <div className="fixed bottom-0 flex left-0 w-full bg-black/90 text-white p-4 shadow-lg border-t border-highlight z-50">
-          <div className="max-w-full mx-auto flex items-center gap-6">
+          <div className="max-w-full mx-auto flex items-center gap-1 md:gap-6">
             <img
               src={currentTrack.cover}
               alt="Current Track"
