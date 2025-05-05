@@ -7,7 +7,7 @@ export default function Bio() {
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
         {/* Image – soft and artistic */}
-        <div className="relative w-64 h-64 md:w-[400px] md:h-[400px] mx-auto md:mx-0">
+        <div className="relative w-[300px] h-[300px] md:w-[400px] md:h-[400px] mx-auto md:mx-0">
           <img
             src={bioImg}
             alt="Yingi"
